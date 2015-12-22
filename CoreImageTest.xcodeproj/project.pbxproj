@@ -16,6 +16,9 @@
 		D66CE9331C28F8F600D95BEC /* BlendTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CE9321C28F8F600D95BEC /* BlendTestViewController.m */; };
 		D66CE9351C28F8FF00D95BEC /* Blend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66CE9341C28F8FF00D95BEC /* Blend.storyboard */; };
 		D66CE9381C28FA5D00D95BEC /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CE9371C28FA5D00D95BEC /* UIImage+Tint.m */; };
+		D66CE93C1C29111C00D95BEC /* FilterTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CE93B1C29111C00D95BEC /* FilterTestViewController.m */; };
+		D66CE93E1C29112600D95BEC /* Filter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66CE93D1C29112600D95BEC /* Filter.storyboard */; };
+		D66CE9401C29142900D95BEC /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = D66CE93F1C29142900D95BEC /* filter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,10 @@
 		D66CE9341C28F8FF00D95BEC /* Blend.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Blend.storyboard; sourceTree = "<group>"; };
 		D66CE9361C28FA5D00D95BEC /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
 		D66CE9371C28FA5D00D95BEC /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		D66CE93A1C29111C00D95BEC /* FilterTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterTestViewController.h; sourceTree = "<group>"; };
+		D66CE93B1C29111C00D95BEC /* FilterTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterTestViewController.m; sourceTree = "<group>"; };
+		D66CE93D1C29112600D95BEC /* Filter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Filter.storyboard; sourceTree = "<group>"; };
+		D66CE93F1C29142900D95BEC /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				D66CE9301C28F8D200D95BEC /* Blend */,
+				D66CE9391C2910EC00D95BEC /* Filter */,
 				D66CE91B1C28EE4E00D95BEC /* AppDelegate.h */,
 				D66CE91C1C28EE4E00D95BEC /* AppDelegate.m */,
 				D66CE91E1C28EE4E00D95BEC /* ViewController.h */,
@@ -99,13 +107,24 @@
 		D66CE9301C28F8D200D95BEC /* Blend */ = {
 			isa = PBXGroup;
 			children = (
+				D66CE9361C28FA5D00D95BEC /* UIImage+Tint.h */,
+				D66CE9371C28FA5D00D95BEC /* UIImage+Tint.m */,
 				D66CE9311C28F8F600D95BEC /* BlendTestViewController.h */,
 				D66CE9321C28F8F600D95BEC /* BlendTestViewController.m */,
 				D66CE9341C28F8FF00D95BEC /* Blend.storyboard */,
-				D66CE9361C28FA5D00D95BEC /* UIImage+Tint.h */,
-				D66CE9371C28FA5D00D95BEC /* UIImage+Tint.m */,
 			);
 			path = Blend;
+			sourceTree = "<group>";
+		};
+		D66CE9391C2910EC00D95BEC /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				D66CE93F1C29142900D95BEC /* filter.png */,
+				D66CE93A1C29111C00D95BEC /* FilterTestViewController.h */,
+				D66CE93B1C29111C00D95BEC /* FilterTestViewController.m */,
+				D66CE93D1C29112600D95BEC /* Filter.storyboard */,
+			);
+			path = Filter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D66CE9351C28F8FF00D95BEC /* Blend.storyboard in Resources */,
+				D66CE9401C29142900D95BEC /* filter.png in Resources */,
 				D66CE9281C28EE4F00D95BEC /* LaunchScreen.storyboard in Resources */,
+				D66CE93E1C29112600D95BEC /* Filter.storyboard in Resources */,
 				D66CE9251C28EE4F00D95BEC /* Assets.xcassets in Resources */,
 				D66CE9231C28EE4F00D95BEC /* Main.storyboard in Resources */,
 			);
@@ -179,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66CE93C1C29111C00D95BEC /* FilterTestViewController.m in Sources */,
 				D66CE9331C28F8F600D95BEC /* BlendTestViewController.m in Sources */,
 				D66CE9201C28EE4E00D95BEC /* ViewController.m in Sources */,
 				D66CE9381C28FA5D00D95BEC /* UIImage+Tint.m in Sources */,

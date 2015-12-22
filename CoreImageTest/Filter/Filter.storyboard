@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BlV-s9-ysJ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Filter Test View Controller-->
+        <scene sceneID="o47-QP-gIO">
+            <objects>
+                <viewController id="BlV-s9-ysJ" customClass="FilterTestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kT2-fU-Umk"/>
+                        <viewControllerLayoutGuide type="bottom" id="AkU-dq-dmq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xdD-Tm-Skl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zA6-Yq-6Bv">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zA6-Yq-6Bv" firstAttribute="leading" secondItem="xdD-Tm-Skl" secondAttribute="leading" id="Qv8-AS-Sw0"/>
+                            <constraint firstAttribute="trailing" secondItem="zA6-Yq-6Bv" secondAttribute="trailing" id="Xs5-Cf-Azq"/>
+                            <constraint firstItem="zA6-Yq-6Bv" firstAttribute="top" secondItem="kT2-fU-Umk" secondAttribute="bottom" id="db2-t6-g5S"/>
+                            <constraint firstItem="AkU-dq-dmq" firstAttribute="top" secondItem="zA6-Yq-6Bv" secondAttribute="bottom" id="zOQ-zH-WLH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="zA6-Yq-6Bv" id="u0A-ky-Yl7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bVk-5f-jTO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="345" y="381"/>
+        </scene>
+    </scenes>
+</document>
