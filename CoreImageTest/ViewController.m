@@ -23,6 +23,7 @@
     self.dataSourceArray = @[
                              @"Blend",
                              @"Filter",
+                             @"CopyMachineTransition",
                              ];
 }
 

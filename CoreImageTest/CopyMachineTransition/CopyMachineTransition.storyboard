@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lGc-MW-MXX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Copy Machine Transition View Controller-->
+        <scene sceneID="ncT-g8-42d">
+            <objects>
+                <viewController id="lGc-MW-MXX" customClass="CopyMachineTransitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="usy-CK-zVc"/>
+                        <viewControllerLayoutGuide type="bottom" id="W8t-12-qCT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cg7-If-Nse">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vLG-IK-mlT" customClass="CopyMachineTransitionView">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="W8t-12-qCT" firstAttribute="top" secondItem="vLG-IK-mlT" secondAttribute="bottom" id="Cvz-5V-f5e"/>
+                            <constraint firstItem="vLG-IK-mlT" firstAttribute="top" secondItem="usy-CK-zVc" secondAttribute="bottom" id="QfG-CC-HWr"/>
+                            <constraint firstAttribute="trailing" secondItem="vLG-IK-mlT" secondAttribute="trailing" id="cq5-Bc-H1R"/>
+                            <constraint firstItem="vLG-IK-mlT" firstAttribute="leading" secondItem="Cg7-If-Nse" secondAttribute="leading" id="h30-6V-7ZR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="transitionView" destination="vLG-IK-mlT" id="ylH-jC-frt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Is-c7-Hg2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="355" y="411"/>
+        </scene>
+    </scenes>
+</document>
