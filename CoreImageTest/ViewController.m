@@ -24,6 +24,7 @@
                              @"Blend",
                              @"Filter",
                              @"CopyMachineTransition",
+                             @"DetectFaces",
                              ];
 }
 

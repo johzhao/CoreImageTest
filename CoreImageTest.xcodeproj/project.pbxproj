@@ -24,6 +24,10 @@
 		D66CE9491C291DB300D95BEC /* CMT_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D66CE9471C291DB300D95BEC /* CMT_01.jpg */; };
 		D66CE94A1C291DB300D95BEC /* CMT_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D66CE9481C291DB300D95BEC /* CMT_02.jpg */; };
 		D66CE94D1C2920DE00D95BEC /* CopyMachineTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CE94C1C2920DE00D95BEC /* CopyMachineTransitionView.m */; };
+		D66CE9511C292F0300D95BEC /* DetectFacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CE9501C292F0300D95BEC /* DetectFacesViewController.m */; };
+		D66CE9531C292F0B00D95BEC /* DetectFaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66CE9521C292F0B00D95BEC /* DetectFaces.storyboard */; };
+		D66CE9561C292F5C00D95BEC /* DetectFacesView.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CE9551C292F5C00D95BEC /* DetectFacesView.m */; };
+		D66CE95A1C293E1700D95BEC /* df_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D66CE9591C293E1700D95BEC /* df_01.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,12 @@
 		D66CE9481C291DB300D95BEC /* CMT_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CMT_02.jpg; sourceTree = "<group>"; };
 		D66CE94B1C2920DE00D95BEC /* CopyMachineTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyMachineTransitionView.h; sourceTree = "<group>"; };
 		D66CE94C1C2920DE00D95BEC /* CopyMachineTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyMachineTransitionView.m; sourceTree = "<group>"; };
+		D66CE94F1C292F0300D95BEC /* DetectFacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectFacesViewController.h; sourceTree = "<group>"; };
+		D66CE9501C292F0300D95BEC /* DetectFacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectFacesViewController.m; sourceTree = "<group>"; };
+		D66CE9521C292F0B00D95BEC /* DetectFaces.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DetectFaces.storyboard; sourceTree = "<group>"; };
+		D66CE9541C292F5C00D95BEC /* DetectFacesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectFacesView.h; sourceTree = "<group>"; };
+		D66CE9551C292F5C00D95BEC /* DetectFacesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectFacesView.m; sourceTree = "<group>"; };
+		D66CE9591C293E1700D95BEC /* df_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = df_01.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,7 @@
 				D66CE9301C28F8D200D95BEC /* Blend */,
 				D66CE9391C2910EC00D95BEC /* Filter */,
 				D66CE9411C291D6D00D95BEC /* CopyMachineTransition */,
+				D66CE94E1C292EE200D95BEC /* DetectFaces */,
 				D66CE91B1C28EE4E00D95BEC /* AppDelegate.h */,
 				D66CE91C1C28EE4E00D95BEC /* AppDelegate.m */,
 				D66CE91E1C28EE4E00D95BEC /* ViewController.h */,
@@ -154,6 +165,19 @@
 			path = CopyMachineTransition;
 			sourceTree = "<group>";
 		};
+		D66CE94E1C292EE200D95BEC /* DetectFaces */ = {
+			isa = PBXGroup;
+			children = (
+				D66CE9591C293E1700D95BEC /* df_01.jpg */,
+				D66CE9541C292F5C00D95BEC /* DetectFacesView.h */,
+				D66CE9551C292F5C00D95BEC /* DetectFacesView.m */,
+				D66CE94F1C292F0300D95BEC /* DetectFacesViewController.h */,
+				D66CE9501C292F0300D95BEC /* DetectFacesViewController.m */,
+				D66CE9521C292F0B00D95BEC /* DetectFaces.storyboard */,
+			);
+			path = DetectFaces;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66CE9531C292F0B00D95BEC /* DetectFaces.storyboard in Resources */,
 				D66CE9431C291D8400D95BEC /* CopyMachineTransition.storyboard in Resources */,
 				D66CE9351C28F8FF00D95BEC /* Blend.storyboard in Resources */,
 				D66CE9401C29142900D95BEC /* filter.png in Resources */,
@@ -219,6 +244,7 @@
 				D66CE9251C28EE4F00D95BEC /* Assets.xcassets in Resources */,
 				D66CE9491C291DB300D95BEC /* CMT_01.jpg in Resources */,
 				D66CE9231C28EE4F00D95BEC /* Main.storyboard in Resources */,
+				D66CE95A1C293E1700D95BEC /* df_01.jpg in Resources */,
 				D66CE94A1C291DB300D95BEC /* CMT_02.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,7 +260,9 @@
 				D66CE9331C28F8F600D95BEC /* BlendTestViewController.m in Sources */,
 				D66CE9201C28EE4E00D95BEC /* ViewController.m in Sources */,
 				D66CE9381C28FA5D00D95BEC /* UIImage+Tint.m in Sources */,
+				D66CE9561C292F5C00D95BEC /* DetectFacesView.m in Sources */,
 				D66CE94D1C2920DE00D95BEC /* CopyMachineTransitionView.m in Sources */,
+				D66CE9511C292F0300D95BEC /* DetectFacesViewController.m in Sources */,
 				D66CE91D1C28EE4E00D95BEC /* AppDelegate.m in Sources */,
 				D66CE91A1C28EE4E00D95BEC /* main.m in Sources */,
 				D66CE9461C291D9700D95BEC /* CopyMachineTransitionViewController.m in Sources */,
