@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UmY-mc-jT3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Blend Test View Controller-->
+        <scene sceneID="ffm-VZ-rRL">
+            <objects>
+                <viewController id="UmY-mc-jT3" customClass="BlendTestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wqk-vg-AGC"/>
+                        <viewControllerLayoutGuide type="bottom" id="MCi-VQ-Xfd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jbI-G3-sfd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blend" translatesAutoresizingMaskIntoConstraints="NO" id="vMI-Mp-NfP">
+                                <rect key="frame" x="263" y="28" width="74" height="74"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vMI-Mp-NfP" firstAttribute="top" secondItem="wqk-vg-AGC" secondAttribute="bottom" constant="8" id="X7S-VD-eXb"/>
+                            <constraint firstItem="vMI-Mp-NfP" firstAttribute="centerX" secondItem="jbI-G3-sfd" secondAttribute="centerX" id="ukA-zk-myc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="vMI-Mp-NfP" id="CVm-Pb-7gc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fDS-N4-hjg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blend" width="74" height="74"/>
+    </resources>
+</document>
